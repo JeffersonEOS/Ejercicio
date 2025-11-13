@@ -1,0 +1,209 @@
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.application.deps.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.application.runtimeconfig.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.domain.deps.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.domain.runtimeconfig.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.domain
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.util.deps.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.util.runtimeconfig.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.util
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.application
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.data.deps.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.data.runtimeconfig.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.data
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/appsettings.Development.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/appsettings.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/appsettings.Production.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/appsettings.QA.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.api
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.api.deps.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.api.runtimeconfig.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.api.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.api.pdb
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Autofac.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Autofac.Extensions.DependencyInjection.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/AutoMapper.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Azure.Core.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Azure.Identity.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Humanizer.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.Data.SqlClient.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.Extensions.DependencyModel.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.Identity.Client.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.Identity.Client.Extensions.Msal.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.IdentityModel.Tokens.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.SqlServer.Server.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Microsoft.Win32.SystemEvents.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Mono.TextTemplating.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/System.CodeDom.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/System.Configuration.ConfigurationManager.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/System.Drawing.Common.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/System.Memory.Data.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/System.Runtime.Caching.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/System.Security.Cryptography.ProtectedData.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/System.Security.Permissions.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/System.Windows.Extensions.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.domain.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.application.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.data.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.util.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.application.pdb
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.data.pdb
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.infraestructure.util.pdb
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/bin/Debug/net8.0/auriga2.domain.pdb
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/auriga2.infraestructure.api.csproj.AssemblyReference.cache
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/auriga2.infraestructure.api.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/auriga2.infraestructure.api.AssemblyInfoInputs.cache
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/auriga2.infraestructure.api.AssemblyInfo.cs
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/auriga2.infraestructure.api.csproj.CoreCompileInputs.cache
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/auriga2.infraestructure.api.MvcApplicationPartsAssemblyInfo.cs
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/auriga2.infraestructure.api.MvcApplicationPartsAssemblyInfo.cache
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/staticwebassets.build.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/staticwebassets.development.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/staticwebassets/msbuild.auriga2.infraestructure.api.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/staticwebassets/msbuild.build.auriga2.infraestructure.api.props
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.auriga2.infraestructure.api.props
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.auriga2.infraestructure.api.props
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/scopedcss/bundle/auriga2.infraestructure.api.styles.css
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/auriga2.infraestructure.api.csproj.CopyComplete
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/auriga2.infraestructure.api.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/refint/auriga2.infraestructure.api.dll
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/auriga2.infraestructure.api.pdb
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/auriga2.infraestructure.api.genruntimeconfig.cache
+/Users/macbook/Downloads/dist 2/auriga2/auriga2_api/auriga2.infraestructure.api/obj/Debug/net8.0/ref/auriga2.infraestructure.api.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.application.deps.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.application.runtimeconfig.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.domain.deps.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.domain.runtimeconfig.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.domain.exe
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.util.deps.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.util.runtimeconfig.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.util.exe
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.application.exe
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.data.deps.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.data.runtimeconfig.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.data.exe
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\appsettings.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\appsettings.Production.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\appsettings.QA.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.api.staticwebassets.endpoints.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.api.exe
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.api.deps.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.api.runtimeconfig.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.api.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.api.pdb
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Autofac.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Autofac.Extensions.DependencyInjection.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Humanizer.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.domain.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.application.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.data.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.util.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.application.pdb
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.data.pdb
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.infraestructure.util.pdb
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\bin\Debug\net8.0\auriga2.domain.pdb
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\auriga2.infraestructure.api.csproj.AssemblyReference.cache
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\auriga2.infraestructure.api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\auriga2.infraestructure.api.AssemblyInfoInputs.cache
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\auriga2.infraestructure.api.AssemblyInfo.cs
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\auriga2.infraestructure.api.csproj.CoreCompileInputs.cache
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\auriga2.infraestructure.api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\auriga2.infraestructure.api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\scopedcss\bundle\auriga2.infraestructure.api.styles.css
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\auriga2..DBD8C02D.Up2Date
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\auriga2.infraestructure.api.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\refint\auriga2.infraestructure.api.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\auriga2.infraestructure.api.pdb
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\auriga2.infraestructure.api.genruntimeconfig.cache
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\ref\auriga2.infraestructure.api.dll
+C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

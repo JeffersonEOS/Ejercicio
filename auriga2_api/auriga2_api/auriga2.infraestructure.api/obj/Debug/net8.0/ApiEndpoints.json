@@ -1,0 +1,745 @@
+[
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.AuthenticationController",
+    "Method": "GetLogin",
+    "RelativePath": "api/authorizations",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequestModel",
+        "Type": "auriga2.infraestructure.application.models.requests.LoginRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "auriga2.infraestructure.application.models.LoginResponseModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.CatalogController",
+    "Method": "CreateCatalog",
+    "RelativePath": "api/catalogs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "catalogModel",
+        "Type": "auriga2.infraestructure.application.models.CatalogModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.CatalogController",
+    "Method": "UpdateCatalog",
+    "RelativePath": "api/catalogs",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "catalogModel",
+        "Type": "auriga2.infraestructure.application.models.CatalogModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.CatalogController",
+    "Method": "DeleteCatalog",
+    "RelativePath": "api/catalogs",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.CatalogController",
+    "Method": "GetAllCatalogModels",
+    "RelativePath": "api/catalogs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.CatalogController",
+    "Method": "GetCatalogModelsByParam",
+    "RelativePath": "api/catalogs/filters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.ConfigController",
+    "Method": "CreateConfig",
+    "RelativePath": "api/configs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "configModel",
+        "Type": "auriga2.infraestructure.application.models.ConfigModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.ConfigController",
+    "Method": "UpdateConfig",
+    "RelativePath": "api/configs",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "configModel",
+        "Type": "auriga2.infraestructure.application.models.ConfigModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.ConfigController",
+    "Method": "DeleteConfig",
+    "RelativePath": "api/configs",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.ConfigController",
+    "Method": "GetAllConfigModels",
+    "RelativePath": "api/configs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.ConfigController",
+    "Method": "GetConfigModelsByParam",
+    "RelativePath": "api/configs/filters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.EmailTemplateController",
+    "Method": "CreateEmailTemplate",
+    "RelativePath": "api/emails_templates",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emailTemplateModel",
+        "Type": "auriga2.infraestructure.application.models.EmailTemplateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.EmailTemplateController",
+    "Method": "UpdateEmailTemplate",
+    "RelativePath": "api/emails_templates",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emailTemplateModel",
+        "Type": "auriga2.infraestructure.application.models.EmailTemplateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.EmailTemplateController",
+    "Method": "DeleteEmailTemplate",
+    "RelativePath": "api/emails_templates",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.EmailTemplateController",
+    "Method": "GetAllEmailTemplateModels",
+    "RelativePath": "api/emails_templates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.EmailTemplateController",
+    "Method": "GetEmailTemplateModelsByParam",
+    "RelativePath": "api/emails_templates/filters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.ProjectController",
+    "Method": "CreateProject",
+    "RelativePath": "api/projects",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectModel",
+        "Type": "auriga2.infraestructure.application.models.ProjectModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.ProjectController",
+    "Method": "UpdateProject",
+    "RelativePath": "api/projects",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectModel",
+        "Type": "auriga2.infraestructure.application.models.ProjectModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.ProjectController",
+    "Method": "DeleteProject",
+    "RelativePath": "api/projects",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.ProjectController",
+    "Method": "GetAllProjectModels",
+    "RelativePath": "api/projects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.ProjectController",
+    "Method": "GetProjectModelsByParam",
+    "RelativePath": "api/projects/filters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.RoleController",
+    "Method": "CreateRole",
+    "RelativePath": "api/roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleModel",
+        "Type": "auriga2.infraestructure.application.models.RoleModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.RoleController",
+    "Method": "UpdateRole",
+    "RelativePath": "api/roles",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleModel",
+        "Type": "auriga2.infraestructure.application.models.RoleModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.RoleController",
+    "Method": "DeleteRole",
+    "RelativePath": "api/roles",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.RoleController",
+    "Method": "GetAllRoleModels",
+    "RelativePath": "api/roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.RoleController",
+    "Method": "GetRoleModelsByParam",
+    "RelativePath": "api/roles/filters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserController",
+    "Method": "CreateUser",
+    "RelativePath": "api/users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userModel",
+        "Type": "auriga2.infraestructure.application.models.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/users",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userModel",
+        "Type": "auriga2.infraestructure.application.models.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/users",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserController",
+    "Method": "GetAllUserModels",
+    "RelativePath": "api/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserInterestController",
+    "Method": "CreateUserInterest",
+    "RelativePath": "api/users_interests",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userInterestModel",
+        "Type": "auriga2.infraestructure.application.models.UserInterestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserInterestController",
+    "Method": "UpdateUserInterest",
+    "RelativePath": "api/users_interests",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userInterestModel",
+        "Type": "auriga2.infraestructure.application.models.UserInterestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserInterestController",
+    "Method": "DeleteUserInterest",
+    "RelativePath": "api/users_interests",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserInterestController",
+    "Method": "GetAllUserInterestModels",
+    "RelativePath": "api/users_interests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserInterestController",
+    "Method": "GetUserInterestModelsByParam",
+    "RelativePath": "api/users_interests/filters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserRoleController",
+    "Method": "CreateUserRole",
+    "RelativePath": "api/users_roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRoleModel",
+        "Type": "auriga2.infraestructure.application.models.UserRoleModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserRoleController",
+    "Method": "UpdateUserRole",
+    "RelativePath": "api/users_roles",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRoleModel",
+        "Type": "auriga2.infraestructure.application.models.UserRoleModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserRoleController",
+    "Method": "DeleteUserRole",
+    "RelativePath": "api/users_roles",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserRoleController",
+    "Method": "GetAllUserRoleModels",
+    "RelativePath": "api/users_roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "offset",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserRoleController",
+    "Method": "GetUserRoleModelsByParam",
+    "RelativePath": "api/users_roles/filters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserController",
+    "Method": "AssignRoleToUser",
+    "RelativePath": "api/users/assign-role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRoleModel",
+        "Type": "auriga2.infraestructure.application.models.UserRoleModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserController",
+    "Method": "CreateUserAndAssignRole",
+    "RelativePath": "api/users/create-with-role/{roleId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userModel",
+        "Type": "auriga2.infraestructure.application.models.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.UserController",
+    "Method": "GetUserModelsByParam",
+    "RelativePath": "api/users/filters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
