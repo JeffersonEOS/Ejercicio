@@ -14,7 +14,7 @@ namespace auriga2.domain.entities
         public string Telefono { get; set; }
         public int SucursalId { get; set; }
         
-        public SucursalEntity Sucursal { get; set; }=null;
+        public SucursalEntity? Sucursal { get; set; }=null;
         //un cliente solo tiene una sucursal
         //por que se le inicializa en null por que una sucursal ya debe de existir
         //al agregar un cliente 

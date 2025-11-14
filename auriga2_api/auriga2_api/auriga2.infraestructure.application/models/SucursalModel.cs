@@ -14,7 +14,8 @@ namespace auriga2.infraestructure.application.models
         public string Direccion { get; set; }
 
         public int BancoId { get; set; }
-        public BancoModel Banco { get; set; } = null;
+        public BancoModel? Banco { get; set; } = null;
+        //se pone al incio ? para q aepte valor nulo completo 
         //por que le igualamos a nul por que al momento de agregar una sucursal el banco tiene que existir
         //att:jefferson
         public List<ClienteModel> Clientes { get; set; } = new();

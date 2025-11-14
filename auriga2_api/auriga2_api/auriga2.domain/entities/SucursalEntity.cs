@@ -13,7 +13,7 @@ namespace auriga2.domain.entities
          public string Direccion { get; set; }
 
         public int BancoId {  get; set; }
-        public BancoEntity Banco { get; set; } = null;
+        public BancoEntity? Banco { get; set; } = null;
         //por que le igualamos a nul por que al momento de agregar una sucursal el banco tiene que existir
         //att:jefferson
         public List<ClienteEntity> Clientes { get; set; }=new List<ClienteEntity>();
