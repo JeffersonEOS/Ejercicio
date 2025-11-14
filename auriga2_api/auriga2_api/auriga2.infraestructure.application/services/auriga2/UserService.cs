@@ -1,8 +1,9 @@
 using auriga2.domain.models;
-using auriga2.domain.entities;
+
 using auriga2.infraestructure.util;
 using auriga2.infraestructure.util.exceptions;
 using auriga2.infraestructure.application.models;
+using auriga2.domain.entities;
 namespace auriga2.infraestructure.application;
 public partial class ApplicationService : IApplicationService
 { 
@@ -44,9 +45,9 @@ public partial class ApplicationService : IApplicationService
     public UserRoleModel AssignRoleToUser(UserRoleModel userRoleModel)
     {
         UserRoleEntity userRoleEntity = this._mapper.Map<UserRoleEntity>(userRoleModel);
-        //creo un usuario ->asignar un rol de un rol existente
+   
         UserEntity user = this._userDomainRepository.FirstOrDefaultSync(x => x.Id == userRoleEntity.UserId);
-        //user.UserRoleList.First(x => x.Role.Equals("admin")).Role;
+    
         if (user == null)
             throw new CustomException("El usuario especificado no existe.");
 
@@ -58,69 +59,53 @@ public partial class ApplicationService : IApplicationService
 
         return this._mapper.Map<UserRoleModel>(userRoleEntity);
     }
-
     public UserModel CreateUserAndAssignRole(UserModel userModel, int roleId)
     {
-
+        // 1. Crear el usuario
         UserEntity userEntity = this._mapper.Map<UserEntity>(userModel);
         userEntity.IsDelete = false;
 
+        // 2. Validar que el rol exista
         RoleEntity roleEntity = this._roleDomainRepository.FirstOrDefaultSync(x => x.Id == roleId);
         if (roleEntity == null)
             throw new CustomException($"El rol con Id {roleId} no existe.");
-        userEntity.UserRoleList.Add(roleEntity);
+
+        // 3. Guardar el usuario primero (para obtener su Id)
         this._userDomainRepository.AddSync(userEntity);
 
+        // 4. Crear la relación UserRoleEntity
+        UserRoleEntity userRoleEntity = new UserRoleEntity
+        {
+            UserId = userEntity.Id,
+            RoleId = roleId,
+            IsActive = true,
+            IsDelete = false,
+            CreateDate = DateTime.Now,
+            UserCreatedAt = userEntity.UserCreatedAt
+        };
+
+        // 5. Guardar la relación usuario-rol
         this._userRoleDomainRepository.AddSync(userRoleEntity);
 
-        UserModel userResult = new UserModel
+        // 6. Construir el modelo a devolver
+        UserModel userResult = this._mapper.Map<UserModel>(userEntity);
+
+        userResult.UserRoleList = new List<UserRoleModel>
+    {
+        new UserRoleModel
         {
-            Id = userEntity.Id,
-            FirstSurname = userEntity.FirstSurname,
-            FirstName = userEntity.FirstName,
-            PlanSupportHours = userEntity.PlanSupportHours,
-            PackageSupportHours = userEntity.PackageSupportHours,
-            CreateDate = userEntity.CreateDate,
-            UserCreatedAt = userEntity.UserCreatedAt,
-            IsActive = userEntity.IsActive,
-            IsDelete = userEntity.IsDelete,
-            DataPremium = userEntity.DataPremium,
-            UserUpdatedAt = userEntity.UserUpdatedAt,
-            UpdateDate = userEntity.UpdateDate,
-            ProviderId = userEntity.ProviderId,
-            SecondName = userEntity.SecondName,
-            Email = userEntity.Email,
-            Identification = userEntity.Identification,
-            SecondSurname = userEntity.SecondSurname,
-            GenderKey = userEntity.GenderKey,
-            Birthdate = userEntity.Birthdate,
-            Cellphone = userEntity.Cellphone,
-            Password = userEntity.Password,
-            Country = userEntity.Country,
-            CountryCode = userEntity.CountryCode,
-            Region = userEntity.Region,
-            RegionName = userEntity.RegionName,
-            City = userEntity.City,
-            Latitude = userEntity.Latitude,
-            Longitude = userEntity.Longitude,
-            Timezone = userEntity.Timezone,
-            SubscriptionKey = userEntity.SubscriptionKey,
-            UserRoleList = new List<UserRoleModel>
-        {
-            new UserRoleModel
-            {
-                UserId = userEntity.Id,
-                RoleId = roleId,
-                IsActive = true,
-                IsDelete = false,
-                CreateDate = userRoleEntity.CreateDate,
-                UserCreatedAt = userEntity.UserCreatedAt
-            }
+            UserId = userEntity.Id,
+            RoleId = roleId,
+            IsActive = true,
+            IsDelete = false,
+            CreateDate = userRoleEntity.CreateDate,
+            UserCreatedAt = userEntity.UserCreatedAt
         }
-        };
+    };
 
         return userResult;
     }
+
 
     public PagedCollection<UserModel> GetUserModelsByParam(string param)
     {

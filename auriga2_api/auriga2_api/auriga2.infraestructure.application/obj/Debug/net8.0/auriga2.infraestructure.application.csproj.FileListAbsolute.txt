@@ -66,3 +66,38 @@ C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSE
 C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.application\obj\Debug\net8.0\auriga2.infraestructure.application.pdb
 C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.application\obj\Debug\net8.0\auriga2.infraestructure.application.genruntimeconfig.cache
 C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.infraestructure.application\obj\Debug\net8.0\ref\auriga2.infraestructure.application.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\obj\Debug\net8.0\auriga2.infraestructure.application.csproj.AssemblyReference.cache
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\obj\Debug\net8.0\auriga2.infraestructure.application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\obj\Debug\net8.0\auriga2.infraestructure.application.AssemblyInfoInputs.cache
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\obj\Debug\net8.0\auriga2.infraestructure.application.AssemblyInfo.cs
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\obj\Debug\net8.0\auriga2.infraestructure.application.csproj.CoreCompileInputs.cache
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\obj\Debug\net8.0\auriga2.infraestructure.application.sourcelink.json
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\obj\Debug\net8.0\auriga2.infraestructure.application.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\obj\Debug\net8.0\refint\auriga2.infraestructure.application.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\obj\Debug\net8.0\auriga2.infraestructure.application.pdb
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\auriga2.domain.deps.json
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\auriga2.domain.runtimeconfig.json
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\auriga2.domain.exe
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\auriga2.infraestructure.util.deps.json
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\auriga2.infraestructure.util.runtimeconfig.json
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\auriga2.infraestructure.util.exe
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\auriga2.infraestructure.application.exe
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\auriga2.infraestructure.application.deps.json
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\auriga2.infraestructure.application.runtimeconfig.json
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\auriga2.infraestructure.application.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\auriga2.infraestructure.application.pdb
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\auriga2.domain.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\auriga2.infraestructure.util.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\auriga2.domain.pdb
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\bin\Debug\net8.0\auriga2.infraestructure.util.pdb
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\obj\Debug\net8.0\auriga2..5DCADEF4.Up2Date
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\obj\Debug\net8.0\auriga2.infraestructure.application.genruntimeconfig.cache
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.application\obj\Debug\net8.0\ref\auriga2.infraestructure.application.dll

@@ -26,3 +26,18 @@ C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSE
 C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.domain\obj\Debug\net8.0\auriga2.domain.pdb
 C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.domain\obj\Debug\net8.0\auriga2.domain.genruntimeconfig.cache
 C:\Users\jefferson.simbania\OneDrive - INTERNATIONAL PROFESSIONAL SERVICES INPSERCOM S.A\Documentos\auriga2_api\auriga2_api\auriga2.domain\obj\Debug\net8.0\ref\auriga2.domain.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.domain\bin\Debug\net8.0\auriga2.domain.exe
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.domain\bin\Debug\net8.0\auriga2.domain.deps.json
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.domain\bin\Debug\net8.0\auriga2.domain.runtimeconfig.json
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.domain\bin\Debug\net8.0\auriga2.domain.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.domain\bin\Debug\net8.0\auriga2.domain.pdb
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.domain\obj\Debug\net8.0\auriga2.domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.domain\obj\Debug\net8.0\auriga2.domain.AssemblyInfoInputs.cache
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.domain\obj\Debug\net8.0\auriga2.domain.AssemblyInfo.cs
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.domain\obj\Debug\net8.0\auriga2.domain.csproj.CoreCompileInputs.cache
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.domain\obj\Debug\net8.0\auriga2.domain.sourcelink.json
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.domain\obj\Debug\net8.0\auriga2.domain.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.domain\obj\Debug\net8.0\refint\auriga2.domain.dll
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.domain\obj\Debug\net8.0\auriga2.domain.pdb
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.domain\obj\Debug\net8.0\auriga2.domain.genruntimeconfig.cache
+C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.domain\obj\Debug\net8.0\ref\auriga2.domain.dll

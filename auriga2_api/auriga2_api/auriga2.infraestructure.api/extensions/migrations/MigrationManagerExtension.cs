@@ -17,7 +17,7 @@ namespace auriga2.infraestructure.api.extensions.migrations
                     }
                     catch (Exception)
                     {
-                        //Log errors or do anything you think it's needed
+                        //Log errors or do anything yMicrosoft.Data.SqlClient.SqlException: 'There is already an object named 'catalogs' in the database.'ou think it's needed
                         throw;
                     }
                 }
