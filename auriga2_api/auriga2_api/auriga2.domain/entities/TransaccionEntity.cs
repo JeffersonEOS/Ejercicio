@@ -12,6 +12,9 @@ namespace auriga2.domain.entities
         public decimal Monto { get; set; }
         public string Tipo { get; set; }
         public DateTime Fecha { get; set; }=DateTime.Now;
+        public int CuentaId { get; set; }
+       
+
         public CuentaEntity Cuenta { get; set; } = null;
             
     }

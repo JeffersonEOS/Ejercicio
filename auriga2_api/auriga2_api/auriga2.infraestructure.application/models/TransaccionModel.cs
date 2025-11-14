@@ -13,6 +13,7 @@ namespace auriga2.infraestructure.application.models
         public decimal Monto { get; set; }
         public string Tipo { get; set; }
         public DateTime Fecha { get; set; } = DateTime.Now;
+        public int CuentaId { get; set; }
         public CuentaModel Cuenta { get; set; } = null;
     }
 }

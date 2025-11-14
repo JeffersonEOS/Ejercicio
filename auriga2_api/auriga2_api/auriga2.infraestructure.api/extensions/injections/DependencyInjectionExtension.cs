@@ -22,6 +22,11 @@ namespace auriga2.infraestructure.api.extensions.injections
             builder.Services.AddScoped<IUserDomainRepository, UserRepository>();
             builder.Services.AddScoped<IProjectDomainRepository, ProjectRepository>();
             builder.Services.AddScoped<IUserInterestDomainRepository, UserInterestRepository>();
+            builder.Services.AddScoped<IBancoDomainRepository, BancoRepository>();
+            builder.Services.AddScoped<ISucursalDomainRepository, SucursalRepository>();
+            builder.Services.AddScoped<IClienteDomainRepository, ClienteRepository>();
+            builder.Services.AddScoped<ICuentaDomainRepository, CuentaRepository>();
+            builder.Services.AddScoped<ITransaccionDomainRepository, TransaccionRepository>();
 
         }
     }

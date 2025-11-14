@@ -22,6 +22,38 @@ namespace auriga2.infraestructure.data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("auriga2.domain.entities.BancoEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("DireccionMatriz")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)")
+                        .HasColumnName("direccion_matriz");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)")
+                        .HasColumnName("nombre");
+
+                    b.Property<string>("Ruc")
+                        .IsRequired()
+                        .HasMaxLength(13)
+                        .HasColumnType("nvarchar(13)")
+                        .HasColumnName("ruc");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("bancos", (string)null);
+                });
+
             modelBuilder.Entity("auriga2.domain.entities.CatalogEntity", b =>
                 {
                     b.Property<int>("Id")
@@ -70,6 +102,44 @@ namespace auriga2.infraestructure.data.Migrations
                     b.ToTable("catalogs", (string)null);
                 });
 
+            modelBuilder.Entity("auriga2.domain.entities.ClienteEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Correo")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)")
+                        .HasColumnName("correo");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)")
+                        .HasColumnName("nombre");
+
+                    b.Property<int>("SucursalId")
+                        .HasColumnType("int")
+                        .HasColumnName("sucursal_id");
+
+                    b.Property<string>("Telefono")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("telefono");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SucursalId");
+
+                    b.ToTable("clientes", (string)null);
+                });
+
             modelBuilder.Entity("auriga2.domain.entities.ConfigEntity", b =>
                 {
                     b.Property<int>("Id")
@@ -115,6 +185,40 @@ namespace auriga2.infraestructure.data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("configs", (string)null);
+                });
+
+            modelBuilder.Entity("auriga2.domain.entities.CuentaEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ClienteId")
+                        .HasColumnType("int")
+                        .HasColumnName("cliente_id");
+
+                    b.Property<int>("EnumTipoCuenta")
+                        .HasColumnType("int")
+                        .HasColumnName("tipo_cuenta");
+
+                    b.Property<string>("NumeroCuenta")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("numero_cuenta");
+
+                    b.Property<decimal>("Saldo")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("saldo");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ClienteId");
+
+                    b.ToTable("cuentas", (string)null);
                 });
 
             modelBuilder.Entity("auriga2.domain.entities.EmailTemplateEntity", b =>
@@ -264,6 +368,72 @@ namespace auriga2.infraestructure.data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("roles", (string)null);
+                });
+
+            modelBuilder.Entity("auriga2.domain.entities.SucursalEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BancoId")
+                        .HasColumnType("int")
+                        .HasColumnName("banco_id");
+
+                    b.Property<string>("Direccion")
+                        .IsRequired()
+                        .HasMaxLength(150)
+                        .HasColumnType("nvarchar(150)")
+                        .HasColumnName("direccion");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)")
+                        .HasColumnName("nombre");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BancoId");
+
+                    b.ToTable("sucursales", (string)null);
+                });
+
+            modelBuilder.Entity("auriga2.domain.entities.TransaccionEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasColumnName("id");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("CuentaId")
+                        .HasColumnType("int")
+                        .HasColumnName("cuenta_id");
+
+                    b.Property<DateTime>("Fecha")
+                        .HasColumnType("datetime")
+                        .HasColumnName("fecha");
+
+                    b.Property<decimal>("Monto")
+                        .HasColumnType("decimal(18,2)")
+                        .HasColumnName("monto");
+
+                    b.Property<string>("Tipo")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("nvarchar(20)")
+                        .HasColumnName("tipo");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CuentaId");
+
+                    b.ToTable("transacciones", (string)null);
                 });
 
             modelBuilder.Entity("auriga2.domain.entities.UserEntity", b =>
@@ -461,6 +631,28 @@ namespace auriga2.infraestructure.data.Migrations
                     b.Navigation("Catalog");
                 });
 
+            modelBuilder.Entity("auriga2.domain.entities.ClienteEntity", b =>
+                {
+                    b.HasOne("auriga2.domain.entities.SucursalEntity", "Sucursal")
+                        .WithMany("Clientes")
+                        .HasForeignKey("SucursalId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Sucursal");
+                });
+
+            modelBuilder.Entity("auriga2.domain.entities.CuentaEntity", b =>
+                {
+                    b.HasOne("auriga2.domain.entities.ClienteEntity", "Cliente")
+                        .WithMany("Cuentas")
+                        .HasForeignKey("ClienteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cliente");
+                });
+
             modelBuilder.Entity("auriga2.domain.entities.ProjectEntity", b =>
                 {
                     b.HasOne("auriga2.domain.entities.UserEntity", "User")
@@ -470,6 +662,28 @@ namespace auriga2.infraestructure.data.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("auriga2.domain.entities.SucursalEntity", b =>
+                {
+                    b.HasOne("auriga2.domain.entities.BancoEntity", "Banco")
+                        .WithMany("Sucursales")
+                        .HasForeignKey("BancoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Banco");
+                });
+
+            modelBuilder.Entity("auriga2.domain.entities.TransaccionEntity", b =>
+                {
+                    b.HasOne("auriga2.domain.entities.CuentaEntity", "Cuenta")
+                        .WithMany("Transacciones")
+                        .HasForeignKey("CuentaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cuenta");
                 });
 
             modelBuilder.Entity("auriga2.domain.entities.UserInterestEntity", b =>
@@ -502,14 +716,34 @@ namespace auriga2.infraestructure.data.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("auriga2.domain.entities.BancoEntity", b =>
+                {
+                    b.Navigation("Sucursales");
+                });
+
             modelBuilder.Entity("auriga2.domain.entities.CatalogEntity", b =>
                 {
                     b.Navigation("CatalogList");
                 });
 
+            modelBuilder.Entity("auriga2.domain.entities.ClienteEntity", b =>
+                {
+                    b.Navigation("Cuentas");
+                });
+
+            modelBuilder.Entity("auriga2.domain.entities.CuentaEntity", b =>
+                {
+                    b.Navigation("Transacciones");
+                });
+
             modelBuilder.Entity("auriga2.domain.entities.RoleEntity", b =>
                 {
                     b.Navigation("UserRoleList");
+                });
+
+            modelBuilder.Entity("auriga2.domain.entities.SucursalEntity", b =>
+                {
+                    b.Navigation("Clientes");
                 });
 
             modelBuilder.Entity("auriga2.domain.entities.UserEntity", b =>

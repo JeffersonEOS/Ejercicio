@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("auriga2.domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4884c02fdb9d5683d15d6c269e3950767278aadc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b93a1e6a0b47c403eb5e30e1cdcd37d9d90f9adf")]
 [assembly: System.Reflection.AssemblyProductAttribute("auriga2.domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("auriga2.domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

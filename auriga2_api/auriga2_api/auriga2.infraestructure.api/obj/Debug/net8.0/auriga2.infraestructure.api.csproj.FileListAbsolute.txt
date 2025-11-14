@@ -310,7 +310,6 @@ C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.api
 C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\auriga2..DBD8C02D.Up2Date
 C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\auriga2.infraestructure.api.genruntimeconfig.cache
 C:\Users\PLAYER666\pasantias\auriga2_api\auriga2_api\auriga2.infraestructure.api\obj\Debug\net8.0\ref\auriga2.infraestructure.api.dll
