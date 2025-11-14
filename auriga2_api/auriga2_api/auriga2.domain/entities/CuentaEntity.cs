@@ -30,7 +30,7 @@ namespace auriga2.domain.entities
             Transacciones.Add(new TransaccionEntity
             {
                 Monto = monto,
-                Tipo = "Depósito",
+                Tipo = EnumTipoTransaccion.Deposito,
                 Fecha = DateTime.Now,
                 CuentaId = this.Id,
                 Cuenta = this
@@ -50,11 +50,12 @@ namespace auriga2.domain.entities
             Transacciones.Add(new TransaccionEntity
             {
                 Monto = monto,
-                Tipo = "Retiro",
+                Tipo = EnumTipoTransaccion.Retiro,
                 Fecha = DateTime.Now,
                 CuentaId = this.Id,
                 Cuenta = this
             });
+
         }
     }
 }

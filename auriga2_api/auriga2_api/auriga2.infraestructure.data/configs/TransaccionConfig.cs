@@ -1,4 +1,5 @@
 ﻿using auriga2.domain.entities;
+using auriga2.domain.enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -18,9 +19,13 @@ namespace auriga2.infraestructure.data.configs
                 .HasColumnName("monto")
                 .HasColumnType("decimal(18,2)");
 
-            builder.Property(x => x.Tipo)
-                .HasColumnName("tipo")
-                .HasMaxLength(20);
+            builder.Property(t => t.Tipo)
+                   .HasColumnName("tipo")
+                   .HasConversion(
+                       v => v.ToString(), 
+                       v => (EnumTipoTransaccion)Enum.Parse(typeof(EnumTipoTransaccion), v.Replace("ó", "o")) 
+                   );
+
 
             builder.Property(x => x.Fecha)
                 .HasColumnName("fecha")

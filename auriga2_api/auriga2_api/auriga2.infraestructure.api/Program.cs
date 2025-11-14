@@ -42,6 +42,12 @@ builder.Host.ConfigureContainer<ContainerBuilder>(b =>
     .AsSelf()
     .InstancePerLifetimeScope();
 });
+builder.Services.AddControllers()
+    .AddJsonOptions(opt =>
+    {
+        opt.JsonSerializerOptions.Converters.Add(new System.Text.Json.Serialization.JsonStringEnumConverter());
+    });
+
 
 // Controllers + JSON
 builder.Services.AddControllers()

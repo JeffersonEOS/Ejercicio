@@ -27,7 +27,7 @@ namespace auriga2.infraestructure.application
             response.NumeroCuenta = cuenta.NumeroCuenta;
             response.SaldoActual = cuenta.Saldo;
 
-            // Generar email HTML para depósito
+            
             var htmlBody = GenerarHtmlDeposito(
                 cuenta.Cliente.Nombre,
                 ultimaTransaccion.Monto,
@@ -38,7 +38,7 @@ namespace auriga2.infraestructure.application
 
             await _envioCorreo.EnviarCorreoAsync(
                 destinatario: cuenta.Cliente.Correo,
-                asunto: $"✅ Depósito exitoso - ${ultimaTransaccion.Monto:N2}",
+                asunto: $" Depósito exitoso - ${ultimaTransaccion.Monto:N2}",
                 cuerpo: htmlBody
             );
 
@@ -59,7 +59,7 @@ namespace auriga2.infraestructure.application
             response.NumeroCuenta = cuenta.NumeroCuenta;
             response.SaldoActual = cuenta.Saldo;
 
-            // Generar email HTML para retiro
+         
             var htmlBody = GenerarHtmlRetiro(
                 cuenta.Cliente.Nombre,
                 ultimaTransaccion.Monto,
@@ -70,7 +70,7 @@ namespace auriga2.infraestructure.application
 
             await _envioCorreo.EnviarCorreoAsync(
                 destinatario: cuenta.Cliente.Correo,
-                asunto: $"💳 Retiro realizado - ${ultimaTransaccion.Monto:N2}",
+                asunto: $" Retiro realizado - ${ultimaTransaccion.Monto:N2}",
                 cuerpo: htmlBody
             );
 

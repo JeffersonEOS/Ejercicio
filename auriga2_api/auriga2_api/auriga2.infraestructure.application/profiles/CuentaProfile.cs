@@ -12,8 +12,6 @@ namespace auriga2.infraestructure.application.profiles
     public class CuentaProfile:Profile
     {
         public CuentaProfile() 
-        
-        
         {
 
             CreateMap<CuentaModel, CuentaEntity>()

@@ -1,4 +1,5 @@
 ﻿using auriga2.domain.entities;
+using auriga2.domain.enums;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -22,9 +23,11 @@ namespace auriga2.infraestructure.data.configs
             builder.Property(x => x.Saldo)
                 .HasColumnName("saldo")
                 .HasColumnType("decimal(18,2)");
-
             builder.Property(x => x.EnumTipoCuenta)
-                .HasColumnName("tipo_cuenta");
+           .HasColumnName("tipo_cuenta")
+           .HasConversion<string>();
+
+
 
             builder.Property(x => x.ClienteId)
                 .HasColumnName("cliente_id");

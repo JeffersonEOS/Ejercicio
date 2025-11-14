@@ -2762,11 +2762,17 @@
       },
       "EnumTipoCuenta": {
         "enum": [
-          0,
-          1
+          "Corriente",
+          "Ahorro"
         ],
-        "type": "integer",
-        "format": "int32"
+        "type": "string"
+      },
+      "EnumTipoTransaccion": {
+        "enum": [
+          "Deposito",
+          "Retiro"
+        ],
+        "type": "string"
       },
       "LoginRequestModel": {
         "type": "object",
@@ -2822,8 +2828,7 @@
             "format": "double"
           },
           "tipo": {
-            "type": "string",
-            "nullable": true
+            "$ref": "#/components/schemas/EnumTipoTransaccion"
           },
           "fecha": {
             "type": "string",
@@ -3024,8 +3029,7 @@
             "format": "double"
           },
           "tipo": {
-            "type": "string",
-            "nullable": true
+            "$ref": "#/components/schemas/EnumTipoTransaccion"
           },
           "fecha": {
             "type": "string",

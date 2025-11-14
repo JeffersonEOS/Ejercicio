@@ -1,4 +1,5 @@
 ﻿using auriga2.domain.entities;
+using auriga2.domain.enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,7 +12,7 @@ namespace auriga2.infraestructure.application.models
     {
         public int Id { get; set; }
         public decimal Monto { get; set; }
-        public string Tipo { get; set; }
+        public EnumTipoTransaccion Tipo { get; set; }
         public DateTime Fecha { get; set; } = DateTime.Now;
         public int CuentaId { get; set; }
         public CuentaModel Cuenta { get; set; } = null;

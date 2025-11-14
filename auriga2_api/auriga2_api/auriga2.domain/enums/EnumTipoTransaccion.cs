@@ -8,7 +8,10 @@ namespace auriga2.domain.enums
 {
     public enum EnumTipoTransaccion
     {
+        [System.ComponentModel.Description("Depósito")]
         Deposito,
+        [System.ComponentModel.Description("Retiro")]
         Retiro
     }
+
 }
