@@ -1,8 +1,10 @@
-using auriga2.domain.models;
 using auriga2.domain.entities;
+using auriga2.domain.models;
+using auriga2.infraestructure.application.models;
+using auriga2.infraestructure.application.models.requests;
+using auriga2.infraestructure.application.models.responses;
 using auriga2.infraestructure.util;
 using auriga2.infraestructure.util.exceptions;
-using auriga2.infraestructure.application.models;
 namespace auriga2.infraestructure.application;
 public partial class ApplicationService : IApplicationService
 { 
@@ -39,6 +41,21 @@ public partial class ApplicationService : IApplicationService
             Size = emailTemplateEntityList.Size,
             Items = this._mapper.Map<EmailTemplateModel[]>(emailTemplateEntityList.Items)
         };
+    }
+    public async Task<MovimientoResponseDto> ObtenerCuentaAsync(MovimientoRequestDto request)
+    {
+        var cuenta = await _cuentaDomainRepository.ObtenerCuentaAsync(request.NumeroCuenta);
+
+        if (cuenta == null)
+            throw new InvalidOperationException("Cuenta no encontrada");
+
+        var response = new MovimientoResponseDto
+        {
+            NumeroCuenta = cuenta.NumeroCuenta,
+            SaldoActual = cuenta.Saldo
+        };
+
+        return response;
     }
     public PagedCollection<EmailTemplateModel> GetEmailTemplateModelsByParam(string param)
     {

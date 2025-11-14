@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PLAYER666\\pasantias\\auriga2_api\\auriga2_api\\auriga2.infraestructure.util\\auriga2.infraestructure.util.csproj": {}
+    "C:\\Users\\jefferson.simbania\\Pasantia\\pasantias\\auriga2_api\\auriga2_api\\auriga2.infraestructure.util\\auriga2.infraestructure.util.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PLAYER666\\pasantias\\auriga2_api\\auriga2_api\\auriga2.infraestructure.util\\auriga2.infraestructure.util.csproj": {
+    "C:\\Users\\jefferson.simbania\\Pasantia\\pasantias\\auriga2_api\\auriga2_api\\auriga2.infraestructure.util\\auriga2.infraestructure.util.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PLAYER666\\pasantias\\auriga2_api\\auriga2_api\\auriga2.infraestructure.util\\auriga2.infraestructure.util.csproj",
+        "projectUniqueName": "C:\\Users\\jefferson.simbania\\Pasantia\\pasantias\\auriga2_api\\auriga2_api\\auriga2.infraestructure.util\\auriga2.infraestructure.util.csproj",
         "projectName": "auriga2.infraestructure.util",
-        "projectPath": "C:\\Users\\PLAYER666\\pasantias\\auriga2_api\\auriga2_api\\auriga2.infraestructure.util\\auriga2.infraestructure.util.csproj",
-        "packagesPath": "C:\\Users\\PLAYER666\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PLAYER666\\pasantias\\auriga2_api\\auriga2_api\\auriga2.infraestructure.util\\obj\\",
+        "projectPath": "C:\\Users\\jefferson.simbania\\Pasantia\\pasantias\\auriga2_api\\auriga2_api\\auriga2.infraestructure.util\\auriga2.infraestructure.util.csproj",
+        "packagesPath": "C:\\Users\\jefferson.simbania\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jefferson.simbania\\Pasantia\\pasantias\\auriga2_api\\auriga2_api\\auriga2.infraestructure.util\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PLAYER666\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jefferson.simbania\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

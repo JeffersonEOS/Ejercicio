@@ -1,6 +1,7 @@
-using auriga2.infraestructure.application;
-using auriga2.infraestructure.data.repositories;
 using auriga2.domain.repositories;
+using auriga2.infraestructure.application;
+using auriga2.infraestructure.application.services.EnvioCorreo;
+using auriga2.infraestructure.data.repositories;
 
 
 namespace auriga2.infraestructure.api.extensions.injections
@@ -27,6 +28,9 @@ namespace auriga2.infraestructure.api.extensions.injections
             builder.Services.AddScoped<IClienteDomainRepository, ClienteRepository>();
             builder.Services.AddScoped<ICuentaDomainRepository, CuentaRepository>();
             builder.Services.AddScoped<ITransaccionDomainRepository, TransaccionRepository>();
+            builder.Services.AddSingleton<IEnvioCorreo, EnvioCorreo>();
+
+
 
         }
     }

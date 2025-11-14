@@ -11,7 +11,7 @@ namespace auriga2.infraestructure.api.controllers
 {
     [Route("api/cuentas")]
     [ApiController]
-    [Authorize]
+    [AllowAnonymous]
     public class CuentaController : ControllerBase
     {
         private readonly IApplicationService _applicationService;

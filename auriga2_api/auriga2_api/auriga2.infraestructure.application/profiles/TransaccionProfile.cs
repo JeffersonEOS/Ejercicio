@@ -1,5 +1,6 @@
 ﻿using auriga2.domain.entities;
 using auriga2.infraestructure.application.models;
+using auriga2.infraestructure.application.models.responses;
 using AutoMapper;
 using System;
 using System.Collections.Generic;
@@ -13,8 +14,9 @@ namespace auriga2.infraestructure.application.profiles
     {
         public TransaccionProfile() 
         {
-            CreateMap<TransaccionModel, TransaccionEntity>()
-             .ReverseMap();
+            CreateMap<TransaccionEntity, MovimientoResponseDto>()
+                      .ForMember(dest => dest.NumeroCuenta, opt => opt.Ignore()) // lo asignas manual después
+                      .ForMember(dest => dest.SaldoActual, opt => opt.Ignore());  // lo asignas manual después
         }
 
         //tener en cuenta las relaciones automaticas del automaper 

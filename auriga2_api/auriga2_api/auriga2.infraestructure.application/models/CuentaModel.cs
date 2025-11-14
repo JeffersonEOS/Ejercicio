@@ -15,7 +15,7 @@ namespace auriga2.infraestructure.application.models
         public decimal Saldo { get; set; }
         public EnumTipoCuenta EnumTipoCuenta { get; set; }
         public int ClienteId { get; set; }
-        public ClienteModel Cliente { get; set; } = null;
+        public ClienteModel? Cliente { get; set; } = null;
         //por que ponemos nulo ,por que el cliente ya tiene quye existir para agregar una cuenta
         public List<TransaccionModel> Transacciones { get; set; } = new();
         //inicializamos en vacio por problema de copilacion y primero tiene que existir

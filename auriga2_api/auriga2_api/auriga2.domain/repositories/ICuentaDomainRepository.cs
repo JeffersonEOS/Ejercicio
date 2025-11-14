@@ -1,13 +1,12 @@
 ﻿using auriga2.domain.entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace auriga2.domain.repositories
 {
-    public interface ICuentaDomainRepository:IGenericDataRepository<CuentaEntity>
+    public interface ICuentaDomainRepository : IGenericDataRepository<CuentaEntity>
     {
+        Task<CuentaEntity> ObtenerPorNumeroCuentaAsync(string numeroCuenta);
+        Task ActualizarAsync(CuentaEntity cuenta);
+        Task<CuentaEntity> ObtenerCuentaAsync(string numeroCuenta);
     }
 }

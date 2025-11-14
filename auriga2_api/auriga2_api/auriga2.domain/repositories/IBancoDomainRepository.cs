@@ -9,6 +9,6 @@ namespace auriga2.domain.repositories
 {
     public interface IBancoDomainRepository:IGenericDataRepository<BancoEntity>
     {
-
+        
     }
 }

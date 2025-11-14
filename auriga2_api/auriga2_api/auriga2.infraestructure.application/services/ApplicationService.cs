@@ -1,6 +1,7 @@
+using auriga2.domain.repositories;
+using auriga2.infraestructure.application.services.EnvioCorreo;
 using AutoMapper;
 using Microsoft.Extensions.Configuration;
-using auriga2.domain.repositories;
 
 
 namespace auriga2.infraestructure.application
@@ -22,8 +23,8 @@ namespace auriga2.infraestructure.application
         private readonly IClienteDomainRepository  _clienteDomainRepository;
         private readonly ICuentaDomainRepository _cuentaDomainRepository;
         private readonly ISucursalDomainRepository _sucursalDomainRepository;
-        private readonly ITransaccionDomainRepository _transaccionDomainRepository;  
-
+        private readonly ITransaccionDomainRepository _transaccionDomainRepository;
+        private readonly IEnvioCorreo _envioCorreo;
 
         public ApplicationService(
             IUserRoleDomainRepository userRoleDomainRepository,
@@ -41,8 +42,8 @@ namespace auriga2.infraestructure.application
             ISucursalDomainRepository sucursalDomainRepository,
             ICuentaDomainRepository cuentaDomainRepository,
             IClienteDomainRepository clienteDomainRepository,
-            IBancoDomainRepository bancoDomainRepository
-
+            IBancoDomainRepository bancoDomainRepository,
+            IEnvioCorreo envioCorreo
             )
         {
             this._configuration = configuration;
@@ -64,6 +65,7 @@ namespace auriga2.infraestructure.application
             this._clienteDomainRepository = clienteDomainRepository;
             this._sucursalDomainRepository = sucursalDomainRepository;
             this._transaccionDomainRepository = transaccionDomainRepository;
+            this._envioCorreo = envioCorreo;
 
 
 

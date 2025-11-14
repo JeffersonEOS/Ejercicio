@@ -686,6 +686,84 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "auriga2.infraestructure.api.controllers.MovimientoController",
+    "Method": "Depositar",
+    "RelativePath": "api/Movimiento/depositar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "auriga2.infraestructure.application.models.requests.MovimientoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "auriga2.infraestructure.application.models.responses.MovimientoResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.MovimientoController",
+    "Method": "Retirar",
+    "RelativePath": "api/Movimiento/retirar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "auriga2.infraestructure.application.models.requests.MovimientoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "auriga2.infraestructure.application.models.responses.MovimientoResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "auriga2.infraestructure.api.controllers.MovimientoController",
+    "Method": "ObtenerSaldo",
+    "RelativePath": "api/Movimiento/saldo/{numeroCuenta}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numeroCuenta",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Decimal",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "auriga2.infraestructure.api.controllers.ProjectController",
     "Method": "CreateProject",
     "RelativePath": "api/projects",
