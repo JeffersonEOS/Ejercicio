@@ -9,9 +9,9 @@ namespace auriga2.domain.enums
     public enum EnumTipoTransaccion
     {
         [System.ComponentModel.Description("Depósito")]
-        Deposito,
+        Deposito=1,
         [System.ComponentModel.Description("Retiro")]
-        Retiro
+        Retiro=2
     }
 
 }

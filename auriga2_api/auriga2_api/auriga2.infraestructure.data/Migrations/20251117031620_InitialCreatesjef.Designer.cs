@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using auriga2.infraestructure.data.contexts;
 
@@ -11,9 +12,11 @@ using auriga2.infraestructure.data.contexts;
 namespace auriga2.infraestructure.data.Migrations
 {
     [DbContext(typeof(Auriga2Context))]
-    partial class Auriga2ContextModelSnapshot : ModelSnapshot
+    [Migration("20251117031620_InitialCreatesjef")]
+    partial class InitialCreatesjef
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

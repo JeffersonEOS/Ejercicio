@@ -16,7 +16,7 @@ namespace auriga2.infraestructure.application.profiles
         {
             CreateMap<TransaccionEntity, MovimientoResponseDto>()
                       .ForMember(dest => dest.NumeroCuenta, opt => opt.Ignore()) // lo asignas manual después
-                      .ForMember(dest => dest.SaldoActual, opt => opt.Ignore()).ForMember(dest => dest.Tipo, opt => opt.MapFrom(src => src.Tipo.ToString()));  // lo asignas manual después
+                      .ForMember(dest => dest.SaldoActual, opt => opt.Ignore());  // lo asignas manual después
         }
 
         //tener en cuenta las relaciones automaticas del automaper 

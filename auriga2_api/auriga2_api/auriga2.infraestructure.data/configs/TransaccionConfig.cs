@@ -20,11 +20,7 @@ namespace auriga2.infraestructure.data.configs
                 .HasColumnType("decimal(18,2)");
 
             builder.Property(t => t.Tipo)
-                   .HasColumnName("tipo")
-                   .HasConversion(
-                       v => v.ToString(), 
-                       v => (EnumTipoTransaccion)Enum.Parse(typeof(EnumTipoTransaccion), v.Replace("ó", "o")) 
-                   );
+                   .HasColumnName("tipo").IsRequired(true).HasMaxLength(50).HasConversion<string>();
 
 
             builder.Property(x => x.Fecha)

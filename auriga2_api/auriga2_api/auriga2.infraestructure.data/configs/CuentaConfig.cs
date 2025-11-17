@@ -24,8 +24,9 @@ namespace auriga2.infraestructure.data.configs
                 .HasColumnName("saldo")
                 .HasColumnType("decimal(18,2)");
             builder.Property(x => x.EnumTipoCuenta)
-           .HasColumnName("tipo_cuenta")
+           .HasColumnName("tipo_cuenta").IsRequired(true).HasMaxLength(50)
            .HasConversion<string>();
+           
 
 
 

@@ -2762,8 +2762,8 @@
       },
       "EnumTipoCuenta": {
         "enum": [
-          "Corriente",
-          "Ahorro"
+          "Ahorro",
+          "Corriente"
         ],
         "type": "string"
       },
