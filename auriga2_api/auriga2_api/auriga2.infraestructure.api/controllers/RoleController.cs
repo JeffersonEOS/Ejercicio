@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace auriga2.infraestructure.api.controllers;
 [Route("api/roles")]
 [ApiController]
-[Authorize]
+[AllowAnonymous]
 public class RoleController : ControllerBase
 {
     private readonly IApplicationService _applicationService;

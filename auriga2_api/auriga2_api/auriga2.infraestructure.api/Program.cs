@@ -5,8 +5,11 @@ using auriga2.infraestructure.api.extensions.migrations;
 using auriga2.infraestructure.api.extensions.securities;
 using auriga2.infraestructure.api.extensions.servers;
 using auriga2.infraestructure.api.middlewares;
+using auriga2.infraestructure.data.contexts;
+using auriga2.infraestructure.data.Data;
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using System;
 using System.Security.Claims;
 using System.Text.Json.Serialization;
 
@@ -87,7 +90,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
-
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<Auriga2Context>();
+    await Inicializador.SeedAsync(context);
+}
 // ───────────── MIDDLEWARE ORDER CORRECTO ─────────────
 
 // Swagger solo en dev

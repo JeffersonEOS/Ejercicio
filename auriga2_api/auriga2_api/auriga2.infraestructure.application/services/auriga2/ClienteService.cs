@@ -45,7 +45,10 @@ namespace auriga2.infraestructure.application
         public PagedCollection<ClienteModel> GetAllClientes(int offset, int limit)
         {
             PagedCollection<ClienteEntity> clienteList = new PagedCollection<ClienteEntity>();
-            List<string> navigationProperties = new List<string>();
+            List<string> navigationProperties = new List<string>
+            {
+                "Sucursales"
+            };
 
             clienteList = this._clienteDomainRepository
                 .GetPaginWhereSync(x => true, offset, limit, navigationProperties);

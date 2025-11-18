@@ -44,10 +44,12 @@ namespace auriga2.infraestructure.application
 
         public PagedCollection<BancoModel> GetAllBancos(int offset, int limit)
         {
-            PagedCollection<BancoEntity> bancoList = new PagedCollection<BancoEntity>();
-            List<string> navigationProperties = new List<string>();
+            List<string> navigationProperties = new List<string>()
+            {
+                "Sucursales"  
+            };
 
-            bancoList = this._bancoDomainRepository
+            var bancoList = this._bancoDomainRepository
                 .GetPaginWhereSync(x => true, offset, limit, navigationProperties);
 
             return new PagedCollection<BancoModel>()
@@ -58,6 +60,7 @@ namespace auriga2.infraestructure.application
                 Items = this._mapper.Map<BancoModel[]>(bancoList.Items)
             };
         }
+
 
         public BancoModel GetBancoById(int id)
         {

@@ -15,7 +15,7 @@ namespace auriga2.infraestructure.application.models
         public string Telefono { get; set; }
         public int SucursalId { get; set; }
 
-        public SucursalModel? Sucursal { get; set; } = null;
+        public SucursalModel? Sucursal { get; set; } = new();
         //un cliente solo tiene una sucursal
         //por que se le inicializa en null por que una sucursal ya debe de existir
         //al agregar un cliente 

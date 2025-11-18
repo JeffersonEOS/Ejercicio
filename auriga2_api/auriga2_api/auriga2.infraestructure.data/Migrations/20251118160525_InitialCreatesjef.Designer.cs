@@ -12,8 +12,8 @@ using auriga2.infraestructure.data.contexts;
 namespace auriga2.infraestructure.data.Migrations
 {
     [DbContext(typeof(Auriga2Context))]
-    [Migration("20251114060305_InitialCreateBanco")]
-    partial class InitialCreateBanco
+    [Migration("20251118160525_InitialCreatesjef")]
+    partial class InitialCreatesjef
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -203,8 +203,10 @@ namespace auriga2.infraestructure.data.Migrations
                         .HasColumnType("int")
                         .HasColumnName("cliente_id");
 
-                    b.Property<int>("EnumTipoCuenta")
-                        .HasColumnType("int")
+                    b.Property<string>("EnumTipoCuenta")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
                         .HasColumnName("tipo_cuenta");
 
                     b.Property<string>("NumeroCuenta")
@@ -428,8 +430,8 @@ namespace auriga2.infraestructure.data.Migrations
 
                     b.Property<string>("Tipo")
                         .IsRequired()
-                        .HasMaxLength(20)
-                        .HasColumnType("nvarchar(20)")
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)")
                         .HasColumnName("tipo");
 
                     b.HasKey("Id");

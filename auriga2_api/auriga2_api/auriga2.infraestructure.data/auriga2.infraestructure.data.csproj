@@ -17,8 +17,4 @@
       <ProjectReference Include="..\auriga2.domain\auriga2.domain.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="migrations" />
-    </ItemGroup>
-
 </Project>

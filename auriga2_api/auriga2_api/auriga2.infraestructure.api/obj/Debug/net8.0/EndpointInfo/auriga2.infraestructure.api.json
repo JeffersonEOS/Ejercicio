@@ -176,17 +176,26 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/BancoModelPagedCollection"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BancoModel"
+                  }
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/BancoModelPagedCollection"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BancoModel"
+                  }
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/BancoModelPagedCollection"
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/BancoModel"
+                  }
                 }
               }
             }
@@ -2461,31 +2470,6 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/SucursalModel"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "BancoModelPagedCollection": {
-        "type": "object",
-        "properties": {
-          "offset": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "limit": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "size": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "items": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/BancoModel"
             },
             "nullable": true
           }

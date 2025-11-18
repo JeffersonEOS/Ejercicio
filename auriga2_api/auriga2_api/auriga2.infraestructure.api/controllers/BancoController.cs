@@ -34,8 +34,9 @@ namespace auriga2.infraestructure.api.controllers
             Ok(_applicationService.DeleteBanco(id));
 
         [HttpGet]
-        public ActionResult<PagedCollection<BancoModel>> GetAllBancos(int offset, int limit) =>
-            Ok(_applicationService.GetAllBancos(offset, limit));
+        public ActionResult<ICollection<BancoModel>> GetAllBancos(int offset, int limit)
+         => Ok(_applicationService.GetAllBancos(offset, limit));
+
 
         [HttpGet("{id}")]
         public ActionResult<BancoModel> GetBancoById(int id) =>

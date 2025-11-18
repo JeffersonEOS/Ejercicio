@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("auriga2.infraestructure.util")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e72f009bb5eb43b054b9bc8abed8ccf77b0e55cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3769f07576f9ea2b3fa5c97ea51eae254c9389a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("auriga2.infraestructure.util")]
 [assembly: System.Reflection.AssemblyTitleAttribute("auriga2.infraestructure.util")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

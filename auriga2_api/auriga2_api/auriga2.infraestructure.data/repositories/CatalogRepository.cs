@@ -9,4 +9,6 @@ public class CatalogRepository : GenericDataDbRepository<CatalogEntity>, ICatalo
     {
         Context = contex;
     }
+
+
 }

@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace auriga2.infraestructure.api.controllers;
 [Route("api/users")]
 [ApiController]
-[Authorize]
+[AllowAnonymous]
 public class UserController : ControllerBase
 {
     private readonly IApplicationService _applicationService;
